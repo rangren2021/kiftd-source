@@ -219,6 +219,17 @@
 				</executions>
 			</plugin>
 		</plugins>
+
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.png</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
+
 	</build>
 	<!-- end 项目基本配置 -->
 
